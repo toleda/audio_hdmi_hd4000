@@ -6,4 +6,3 @@ Award-HD4000-AMD-Nvidia-6_Series-A1	DSDT	Patches/Award-HD4000-6_Series/ib5-hdmi_
 AMI-HD4000-Laptop-FB_01-A3	DSDT	Patches/AMI-HD4000-Laptop/ib6-hdmi_audio_laptop_01_hd4000-3.txt
 AMI-HD4000-Laptop-FB_03-A3	DSDT	Patches/AMI-HD4000-Laptop/ib7-hdmi_audio_laptop_03_hd4000-3.txt
 Intel-HD4000-NUC-A1	DSDT	Patches/Intel-HD4000-NUC/ib8-hdmi_audio_intel_nuc-1.txt
-
