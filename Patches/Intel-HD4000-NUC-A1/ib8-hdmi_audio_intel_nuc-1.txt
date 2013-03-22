@@ -93,6 +93,6 @@ begin
         DTGP (Arg0, Arg1, Arg2, Arg3, RefOf (Local0))\n
         Return (Local0)\n
     }\n
-end:
+end;
 into definitionblock code_regex . insert
 begin Store ("ib8-hdmi_audio_intel_nuc_dsdt_edits-1.txt_v1.0 dsdt edits, github.com/toleda", Debug) end
