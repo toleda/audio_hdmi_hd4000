@@ -25,7 +25,7 @@ ML HD4000 HDMI Audio dsdt edits
 4. Download/ZIP: https://github.com/toleda/audio_hdmi_hd4000
 
 Usage
-1. If no dsdt. extract dsdt, MaciASL/File/New from ACPI/DSDT
+1. If no dsdt; extract dsdt, MaciASL/File/New from ACPI/DSDT
 2. MaciASL/File/Open dsdt
 3. MaciASL/Patch/toleda_hdmi_hd4000/Select Patch/es
 4. MaciASL/Patch/Apply (Repeat, as necessary) 
@@ -57,6 +57,6 @@ github.com/toleda/audio_hdmi_hd3000
 github.com/toleda/audio_hdmi_5series
 
 toleda
-https://github.com/toleda/audio_hdmi
+https://github.com/toleda/audio_hdmi_hd4000
 Patches
 README.txt
