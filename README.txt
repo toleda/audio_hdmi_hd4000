@@ -48,13 +48,10 @@ Guides:
     IB6. AMI-HD4000-Laptop-FB-01-A3 - Laptop HD4000 HDMI audio dsdt edits
     IB7. AMI-HD4000-Laptop-FB-03-A3 - Laptop HD4000 HDMI audio dsdt edits
     IB8. Intel-HD4000-NUC-A1 - NUC HDMI audio edits (2xHDMI and TB)
-1c. Troubleshooting/Post to http://www.tonymacx86.com/hdmi-audio/84936-easy-guide-ml-hdmi-audio-hd4000-7-series-mb.html
 
-2. Sandy Bridge/HD3000/2rd Generation Core Processors/6 Series motherboards
-github.com/toleda/audio_hdmi_hd3000
-
-3. Nehalem/1st Generation Core Processors/5 Series motherboards (No HD Graphics)
-github.com/toleda/audio_hdmi_5series
+Troubleshooting/Post
+1. http://www.tonymacx86.com/hdmi-audio/84936-easy-guide-ml-hdmi-audio-hd4000-7-series-mb.html
+2. http://www.insanelymac.com/forum/topic/291103-mountain-lion-hdmi-audio/
 
 toleda
 https://github.com/toleda/audio_hdmi_hd4000
