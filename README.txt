@@ -20,7 +20,7 @@ http://www.tonymacx86.com/hdmi-audio/84936-easy-guide-ml-hdmi-audio-hd4000-7-ser
 
 ML HD4000 HDMI Audio dsdt edits
 1. MaciASL - http://sourceforge.net/projects/maciasl/?source=navbar
-2. Configuration: MaciASL/Preferences/Sources/+/
+2. Configuration: MaciASL/Preferences/Sources/+/  (copy/paste URL, don't click)
 3. URL: https://raw.github.com/toleda/audio_udio_hd400/master
 4. Download/ZIP: https://github.com/toleda/audio_hdmi_hd4000
 
