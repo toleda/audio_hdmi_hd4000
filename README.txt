@@ -18,6 +18,10 @@ http://www.tonymacx86.com/hdmi-audio/70765-mountain-lion-hdmi-audio.html
 3. Mountain Lion HD4000 HDMI audio
 http://www.tonymacx86.com/hdmi-audio/84936-easy-guide-ml-hdmi-audio-hd4000-7-series-mb.html
 
+Two ML HD4000 HDMI audio enabling techniques - select one
+1. ML: HD4000 HDMI Audio dsdt (with dsdt edits) 
+2. ML: HD4000 HDMI Audio ssdt (with native dsdt)
+
 ML HD4000 HDMI Audio dsdt edits
 1. MaciASL - http://sourceforge.net/projects/maciasl/?source=navbar
 2. Configuration: MaciASL/Preferences/Sources/+/  (copy/paste URL, don't click)
@@ -35,6 +39,9 @@ Usage
 
 Installation - edited dsdt.aml to Extra
 1. MaciASL/File/Save As…/ACPI Machine Language Binary/Extra/dsdt.aml (add extension)
+
+ML: HD4000 HDMI Audio ssdt (with native dsdt)
+1. see https://github.com/toleda/audio_hdmi_uefi
 
 Guides:
 1. Ivy Bridge/HD4000/3rd Generation Core Processors/7 Series motherboards/AMI EFI
