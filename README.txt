@@ -2,13 +2,17 @@ audio_hdmi_hd4000
 ============
 OS X AMD/Nvidia/HD4000 HDMI Audio dsdt edits
 
-This guide enables OS X HDMI audio on Intel based motherboards with a bootable clean install of OS X.  Supported HDMI audio graphics systems are AMD discrete graphics cards (HD5xxx and HD6xxx), Nvidia discrete graphics cards (4xx, 5xxx and 6xx) and Intel HD4000 integrated graphics systems.  The Optimized AppleHDA.kext supports HDMI audio and Realtek audio codecs (ALC885, ALC887, ALC888, ALC889, ALC892 and ALC898) for onboard audio.  The native ML AppleHDA.kext supports only HDMI audio when configured properly. In Mountain Lion, the Optimized AppleHDA.kext supports 2 Audio_IDs for HDMI and Realtek onboard audio:
+This guide enables OS X HDMI audio on Intel based motherboards with a bootable clean install of OS X.  Supported HDMI audio graphics systems are AMD discrete graphics cards (HD5xxx, HD6xxx and HD7xxx), Nvidia discrete graphics cards (4xx, 5xx, 6xx and 7xx) and Intel HD4000 integrated graphics systems.  The Optimized AppleHDA.kext supports HDMI audio and Realtek audio codecs (ALC885, ALC887, ALC888, ALC889, ALC892 and ALC898) for onboard audio.  The native ML AppleHDA.kext supports only HDMI audio when configured properly. In Mountain Lion, the Optimized AppleHDA.kext supports 2 Audio_IDs for HDMI and Realtek onboard audio:
 Audio_ID: 1 supports AMD/Nvidia HDMI and 3, 5 and 6 port ALC8xx onboard audio  
 Audio_ID: 3 supports HD3000/HD4000 HDMI and 3, 5 and 6 port ALC8xx onboard audio
 
 Note
 1. Native ML AppleHDA.kext, use Audio_ID: 1, for HDMI audio/no onboard audio
 2. Integrated and Discrete HDMI audio, use Audio_ID:3, for HDMI audio and Realtek on board audio
+
+OS X versions supported
+1. Mavericks.10.9 and newer
+2. Mountain Lion/10.8.2 and newer
 
 More Information
 1. Mountain Lion: Optimized AppleHDA for Realtek ALC8xx
@@ -44,8 +48,8 @@ ML: HD4000 HDMI Audio ssdt (with native dsdt)
 1. see https://github.com/toleda/audio_hdmi_uefi
 
 Guides:
-1. Ivy Bridge/HD4000/3rd Generation Core Processors/7 Series motherboards/AMI EFI
-1a. [Guide] ML-AMI-HD4000-7_series-hdmi_audio_dsdt_edits
+1. HD4000/Ivy Bridge/3rd Generation Core Processors/7 Series motherboards/AMI EFI
+1a. [Guide] HD4000-hdmi_audio_dsdt_edits_v1.3.pdf.zip
 1b. Patches
     IB1. AMI-EFI/Clean Compile - fix native dsdt compiler errors for successful dsdt edits
     IB2. AMI-AMD-Nvidia-7_Series-A1 - AMD/Nvidia HDMI audio dsdt edits
