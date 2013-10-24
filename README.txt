@@ -47,6 +47,20 @@ Installation - edited dsdt.aml to Extra
 ML: HD4000 HDMI Audio ssdt (with native dsdt)
 1. see https://github.com/toleda/audio_hdmi_uefi
 
+Problem Reporting
+1. Motherboard/BIOS version/processor/graphics/OS and version
+2. Copy of dsdt (if edited)
+3. Copy of HDMI audio SSDT (if installed)
+4. Copy of IORegistryExplorer
+
+Troubleshooting/Post w/attachments 2-4, above
+1. Mavericks/10.9
+1a. http://www.tonymacx86.com/hdmi-audio/112469-m-hdmi-audio.html
+1b. http://www.insanelymac.com/forum/topic/292999-mavericks-applehda-hdmi-audio/
+2. Mountain Lion/10.8
+2a.http://www.tonymacx86.com/hdmi-audio/70762-mountain-lion-hdmi-audio-ami-dsdt.html
+2b. http://www.insanelymac.com/forum/topic/291103-mountain-lion-hdmi-audio/
+
 Guides:
 1. HD4000/Ivy Bridge/3rd Generation Core Processors/7 Series motherboards/AMI EFI
 1a. [Guide] HD4000-hdmi_audio_dsdt_edits_v1.3.pdf.zip
@@ -59,10 +73,6 @@ Guides:
     IB6. AMI-HD4000-Laptop-FB-01-A3 - Laptop HD4000 HDMI audio dsdt edits
     IB7. AMI-HD4000-Laptop-FB-03-A3 - Laptop HD4000 HDMI audio dsdt edits
     IB8. Intel-HD4000-NUC-A1 - NUC HDMI audio edits (2xHDMI and TB)
-
-Troubleshooting/Post
-1. http://www.tonymacx86.com/hdmi-audio/84936-easy-guide-ml-hdmi-audio-hd4000-7-series-mb.html
-2. http://www.insanelymac.com/forum/topic/291103-mountain-lion-hdmi-audio/
 
 toleda
 https://github.com/toleda/audio_hdmi_hd4000
