@@ -65,7 +65,7 @@ Device (GFX0)\n
     Name (_SUN, One)\n
     Method (_DSM, 4, NotSerialized)\n
     {\n
-        Store (Package (0x06)\n
+        Store (Package (0x0a)\n
             {\n
                 "@0,connector-type", \n
                 Buffer (0x04)\n
@@ -73,6 +73,16 @@ Device (GFX0)\n
                     0x00, 0x08, 0x00, 0x00\n
                 }, \n
                 "@1,connector-type", \n
+                Buffer (0x04)\n
+                {\n
+                    0x00, 0x08, 0x00, 0x00\n
+                }, \n
+                "@2,connector-type", \n
+                Buffer (0x04)\n
+                {\n
+                    0x00, 0x08, 0x00, 0x00\n
+                }, \n
+                "@3,connector-type", \n
                 Buffer (0x04)\n
                 {\n
                     0x00, 0x08, 0x00, 0x00\n
