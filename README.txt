@@ -7,26 +7,22 @@ Audio_ID: 1 supports AMD/Nvidia HDMI and 3, 5 and 6 port ALC8xx onboard audio
 Audio_ID: 3 supports HD3000/HD4000 HDMI and 3, 5 and 6 port ALC8xx onboard audio
 
 Note
-1. Native ML AppleHDA.kext, use Audio_ID: 1, for HDMI audio/no onboard audio
+1. Native AppleHDA.kext, use Audio_ID: 1, for HDMI audio/no onboard audio
 2. Integrated and Discrete HDMI audio, use Audio_ID:3, for HDMI audio and Realtek on board audio
 
 OS X versions supported
 1. Mavericks.10.9 and newer
 2. Mountain Lion/10.8.2 and newer
 
-More Information
-1. Mountain Lion: Optimized AppleHDA for Realtek ALC8xx
-http://www.tonymacx86.com/audio/76202-mountain-lion-optimized-applehda-realtek-alc8xx.html#post472375
-2. Mountain Lion HDMI Audio
-http://www.tonymacx86.com/hdmi-audio/70765-mountain-lion-hdmi-audio.html
-3. Mountain Lion HD4000 HDMI audio
-http://www.tonymacx86.com/hdmi-audio/84936-easy-guide-ml-hdmi-audio-hd4000-7-series-mb.html
+Location.aml - dsdt.aml/ssdt.aml installation folder
+1. Chameleon/Chimera - Extra/
+2. Clover - EFI/Clover/ACPI/Patched/
 
-Two ML HD4000 HDMI audio enabling techniques - select one
-1. ML: HD4000 HDMI Audio dsdt (with dsdt edits) 
-2. ML: HD4000 HDMI Audio ssdt (with native dsdt)
+Two HD4000 HDMI audio enabling techniques - select one
+1. DSDT - HD4000 HDMI Audio (with dsdt edits) 
+2. SSDT - HD4000 HDMI Audio (with native dsdt)
 
-ML HD4000 HDMI Audio dsdt edits
+DSDT - HD4000 HDMI Audio
 1. MaciASL - http://sourceforge.net/projects/maciasl/?source=navbar
 2. Configuration: MaciASL/Preferences/Sources/+/  (copy/paste URL, don't click)
 3. URL: https://raw.github.com/toleda/audio_udio_hd400/master
@@ -42,10 +38,10 @@ Usage
 7. MaciASL/File/Save As…/ACPI Machine Language Binary/dsdt.aml
 
 Installation - edited dsdt.aml to Extra
-1. MaciASL/File/Save As…/ACPI Machine Language Binary/Extra/dsdt.aml (add extension)
+1. MaciASL/File/Save As…/ACPI Machine Language Binary/Location.aml/dsdt.aml (add extension)
 
-ML: HD4000 HDMI Audio ssdt (with native dsdt)
-1. see https://github.com/toleda/audio_hdmi_uefi
+SSDT - HD4000 HDMI Audio
+1. https://github.com/toleda/audio_hdmi_uefi/tree/master/ssdt_7series
 
 Problem Reporting
 1. Motherboard/BIOS version/processor/graphics/OS and version
