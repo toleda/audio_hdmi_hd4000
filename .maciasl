@@ -1,8 +1,8 @@
-AMI-EFI/Clean Compile	DSDT	Patches/ib1-ami_efi_clean_compile.txt
-AMI-AMD-Nvidia-7_Series-A1	DSDT	Patches/AMI-HD4000-7_Series/ib2-hdmi_audio_ami_efi_hd4000-1.txt
-AMI-HD4000-7_Series-A3	DSDT	Patches/AMI-HD4000-7_Series/ib3-hdmi_audio_ami_efi_hd4000-3.txt
-AMI-HD4000-6_Series-MEI	DSDT	Patches/AMI-HD4000-6_Series/ib4-mei_hd4000-6_series-fix.txt
-Award-HD4000-AMD-Nvidia-6_Series-A1	DSDT	Patches/Award-HD4000-6_Series/ib5-hdmi_audio_award_hd4000-1.txt
-AMI-HD4000-Laptop-FB_01-A3	DSDT	Patches/AMI-HD4000-Laptop/ib6-hdmi_audio_laptop_01_hd4000-3.txt
-AMI-HD4000-Laptop-FB_03-A3	DSDT	Patches/AMI-HD4000-Laptop/ib7-hdmi_audio_laptop_03_hd4000-3.txt
-Intel-HD4000-NUC-A1	DSDT	Patches/Intel-HD4000-NUC-A1/ib8-hdmi_audio_intel_nuc-1.txt
+AMI-Clean_Compile-7series	DSDT	Patches/ib1-ami_efi_clean_compile.txt
+AMI-AMD-Nvidia-A1	DSDT	Patches/AMI-HD4000-7_Series/ib2-hdmi_audio_ami_efi_hd4000-1.txt
+AMI-HD4000-AMD-Nvidia-7series-A3	DSDT	Patches/AMI-HD4000-7_Series/ib3-hdmi_audio_ami_efi_hd4000-3.txt
+AMI-HD4000-6series-MEI_Fix	DSDT	Patches/AMI-HD4000-6_Series/ib4-mei_hd4000-6_series-fix.txt
+Award-HD4000-AMD-Nvidia-6series-A3	DSDT	Patches/Award-HD4000-6_Series/ib5-hdmi_audio_award_hd4000-3.txt
+AMI-HD4000-Laptop-FB_01-A1	DSDT	Patches/AMI-HD4000-Laptop/ib6-hdmi_audio_laptop_01_hd4000-1.txt
+AMI-HD4000-Laptop-FB_03-A1	DSDT	Patches/AMI-HD4000-Laptop/ib7-hdmi_audio_laptop_03_hd4000-1.txt
+NUC-HD4000-A1	DSDT	Patches/Intel-HD4000-NUC-A1/ib8-hdmi_audio_intel_nuc-1.txt

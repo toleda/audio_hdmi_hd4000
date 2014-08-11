@@ -1,8 +1,8 @@
 # Maintained by: toleda for: github.com/toleda/audio_hdmi_hd4000
-# File: ib6-hdmi_audio_laptop_01_hd4000-3.txt_v2.0
-# Add Laptop HD4000 HDMI audio edits  (Capri Framebuffer: 0166 0001/Audio ID: 3)
+# File: ib7-hdmi_audio_laptop_03_hd4000-1.txt_v2.0
+# Add Laptop HD4000 HDMI audio edits  (Capri Framebuffer: 0166 0003/Audio ID: 3)
 #
-# 1. Insert HDMI audio injection into device IGPU (HD4000 HDMI audio - Part 1/2)
+# 2. Insert HDMI audio injection into device IGPU (HD4000 HDMI audio - Part 1/2)
 into method label _DSM parent_adr 0x00020000 remove_entry;
 into device name_adr 0x00020000 insert
 begin
@@ -12,12 +12,11 @@ begin
 	    Return (Package()\n
 	    {\n
 	        "device-id", Buffer() { 0x66, 0x01, 0x00, 0x00 },\n
-	        "AAPL,ig-platform-id", Buffer() { 0x01, 0x00, 0x66, 0x01 },\n
+	        "AAPL,ig-platform-id", Buffer() { 0x03, 0x00, 0x66, 0x01 },\n
 	        "hda-gfx", Buffer() { "onboard-1" },\n
 	    })\n
-    }\n
-end;
-# 2. Insert HDMI audio injection into device HDEF (HD3=4000 HDMI audio - Part 2/2)
+    }\nend;
+# 3. Insert HDMI audio injection into device HDEF (HD3=4000 HDMI audio - Part 2/2)
 into method label _DSM parent_adr 0x001B0000 remove_entry;
 into device name_adr 0x001B0000 insert
 begin
@@ -26,10 +25,11 @@ begin
 	    If (LEqual (Arg2, Zero)) { Return (Buffer() { 0x03 } ) }\n
 	    Return (Package()\n
 	    {\n
-                "layout-id", Buffer() { 0x03, 0x00, 0x00, 0x00 },\n
+                "layout-id", Buffer() { 0x01, 0x00, 0x00, 0x00 },\n
                 "PinConfigurations", Buffer(Zero) {},\n
   	        "hda-gfx", Buffer() { "onboard-1" },\n
 	    })\n
-    }\nend;
+    }\n
+end;
 into definitionblock code_regex . insert
-begin Store ("ib6-hdmi_audio_laptop_01_hd4000-3.txt_v2.0 dsdt edits, github.com/toleda", Debug) end
+begin Store ("ib7-hdmi_audio_laptop_03_hd4000-1.txt_v2.0 dsdt edits, github.com/toleda", Debug) end
