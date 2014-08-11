@@ -24,7 +24,6 @@ Problem Reporting
 Credit:
 PikeRAlpha https://pikeralpha.wordpress.com/2013/09/19/haswell-hdau-solution/
 bcc9 Post #11 - http://www.insanelymac.com/forum/topic/290783-intel-hd-graphics-4600-haswell-working-displayport/?p=1934889
-TimeWalker75a Post #118, http://www.insanelymac.com/forum/topic/290783-intel-hd-graphics-4600-haswell-working-displayport/?p=1949558
 
 toleda
 https://github.com/toleda/audio_hdmi_hd4000

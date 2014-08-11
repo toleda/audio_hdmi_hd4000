@@ -1,4 +1,4 @@
-audio_hdmi_hd4000/ssdt_hd4000
+audio_hdmi_hd4000/ssdt_7series
 ============
 OS X Ivy Bridge/7 Series/Socket 1155 - HD4000/AMD/Nvidia HDMI Audio ssdt
 
