@@ -1,5 +1,5 @@
 # Maintained by: toleda for: github.com/toleda/audio_hdmi_hd4000
-# File: ib2-hdmi_audio_ami_efi_hd4000-1.txt_v2.0
+# File: ib2-hdmi_audio_ami_efi_hd4000-1.txt_v3.0
 # Credit: PikeRAlpha, PJALM, RehabMan, SL_UnderWater
 #
 # Desktop HD4K/AMD/Nvidia HDMI audio dsdt edits (Audio ID: 1)
@@ -52,6 +52,8 @@ Device (GFX0)\n
                 "@1,connector-type", Buffer() { 0x00, 0x08, 0x00, 0x00 },\n
                 "@2,connector-type", Buffer() { 0x00, 0x08, 0x00, 0x00 },\n
                 "@3,connector-type", Buffer() { 0x00, 0x08, 0x00, 0x00 },\n
+                "@4,connector-type", Buffer() { 0x00, 0x08, 0x00, 0x00 },\n
+                "@5,connector-type", Buffer() { 0x00, 0x08, 0x00, 0x00 },\n
                 "hda-gfx", Buffer() { "onboard-2" },\n
 	    })\n
     }\n
@@ -100,4 +102,4 @@ begin
     }\n
 end;
 into definitionblock code_regex . insert
-begin Store ("ib2-hdmi_audio_ami_efi_hd4000-1.txt_v2.0 dsdt edits, github.com/toleda", Debug) end
+begin Store ("ib2-hdmi_audio_ami_efi_hd4000-1.txt_v3.0 dsdt edits, github.com/toleda", Debug) end
